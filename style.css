@@ -99,20 +99,3 @@ a:hover {
   background-color: #04aa6d;
   border-radius: 30px;
 }
-
-#vid {
-  background-image: linear-gradient(
-    to right,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
-  );
-  border-radius: 30px;
-  border-width: 10px;
-  margin: auto;
-  padding: 0px;
-}
