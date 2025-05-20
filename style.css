@@ -1,4 +1,4 @@
-/* h1, main paragraph(inside main), img of cat,  */
+/* this is a mess */
 body {
   background-color: rgb(60, 60, 60);
   margin: 10px;
@@ -7,6 +7,7 @@ body {
 
 header {
   background-color: rgb(86, 86, 86);
+  border-radius: 30px;
   text-align: center;
   padding: 20px;
 }
@@ -20,18 +21,54 @@ h1 {
 
 main {
   background-color: rgb(86, 86, 86);
+  border-radius: 30px;
   color: white;
   line-height: 30px;
   word-spacing: 3px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+h2 {
+  padding: 20px;
+}
 
-img {
-  float: left;
-  clip-path: circle(40%);
-  shape-outside: circle(40%);
+.dog1 {
   width: 200px;
+  clip-path: circle(40%);
+}
+
+.dog-par {
+  background-color: rgb(86, 86, 86);
+  border-radius: 30px;
+  color: white;
+  line-height: 30px;
+  word-spacing: 2px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.cat {
+  width: 200px;
+  clip-path: circle(40%);
+  filter: invert();
+  filter: blur(2px);
+}
+.cat2 {
+  width: 200px;
+  clip-path: circle(40%);
+  filter: invert();
+}
+
+.cat-par {
+  background-color: rgb(86, 86, 86);
+  border-radius: 30px;
+  color: white;
+  line-height: 30px;
+  word-spacing: 2px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 ul {
@@ -40,6 +77,7 @@ ul {
   padding: 0px;
   overflow: hidden;
   background-color: #333;
+  border-radius: 30px;
 }
 
 li {
@@ -54,7 +92,9 @@ a {
 }
 a:hover {
   background-color: #111;
+  border-radius: 30px;
 }
 .active {
   background-color: #04aa6d;
+  border-radius: 30px;
 }
