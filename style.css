@@ -101,8 +101,18 @@ a:hover {
 }
 
 #vid {
-  background-color: rgb(86, 86, 86);
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
   border-radius: 30px;
+  border-width: 10px;
   margin: auto;
   padding: 0px;
 }
