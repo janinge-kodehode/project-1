@@ -124,3 +124,21 @@ a:hover {
 .button:hover {
   background-color: #04aa6d;
 }
+
+@keyframes anim {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #04aa6d;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.animHead {
+  animation-name: anim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
