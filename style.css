@@ -34,7 +34,7 @@ h2 {
 
 .dog1 {
   width: 200px;
-  clip-path: circle(40%);
+  clip-path: circle(50%);
 }
 
 .mainPar {
@@ -50,13 +50,13 @@ h2 {
 
 .cat {
   width: 200px;
-  clip-path: circle(40%);
+  clip-path: circle(50%);
   filter: invert();
   filter: blur(2px);
 }
 .cat2 {
   width: 200px;
-  clip-path: circle(40%);
+  clip-path: circle(50%);
   filter: invert();
 }
 
@@ -225,4 +225,14 @@ a:hover {
   100% {
     transform: rotate(360deg);
   }
+}
+
+#rotate {
+  background: #963838;
+  width: 200px;
+  height: 200px;
+  transition: width 3s ease-in-out;
+}
+#rotate:hover {
+  width: 500px;
 }
