@@ -234,5 +234,5 @@ a:hover {
   transition: width 3s ease-in-out;
 }
 #rotate:hover {
-  width: 500px;
+  width: 100%;
 }
